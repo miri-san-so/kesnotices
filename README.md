@@ -22,12 +22,12 @@ You would need to change directory to the downloaded master folder
 $ cd kesnotices-master
 ```
 
-run the *scrape.js*
+Run the *scrape.js*
 ```
 $ node scrape.js
 ```
 
-stop the scraping using CTRL + C once you get the following message
+Stop the script using CTRL + C once you get the following message
 ```
 [x] Press CTRL + C to stop now!
 ```
