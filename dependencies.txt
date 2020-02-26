@@ -1,0 +1,2 @@
+Install these
+npm i express, mongoose, body-parser, cors, puppeteer
