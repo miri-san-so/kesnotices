@@ -9,17 +9,17 @@ KES Notices is a Full Stack Web App for displaying notices from kesshroffcollege
 ### Database
 mongoDB [Community Edition](https://www.mongodb.com/download-center/community/).
 
-### Dependencies
-```
-$ npm i express, body-parser, mongoose, cors, puppeteer
-```
-
 
 ## Getting Started
 
 You would need to change directory to the downloaded master folder
 ```
 $ cd kesnotices-master
+```
+
+Install the mongoose and puppeteer 
+```
+$ npm i mongoose puppeteer
 ```
 
 Run the *scrape.js*
@@ -32,9 +32,20 @@ Stop the script using CTRL + C once you get the following message
 [x] Press CTRL + C to stop now!
 ```
 
-Now change the directory to backend and run the *server.js* file
+Now change the directory to backend 
 ```
-$ cd backend && node server.js
+$ cd backend
+```
+
+Install the dependencies for server
+```
+$ npm i body-parser cors express mongoose
+```
+
+
+Run the *server.js* file
+```
+$ node server.js
 ```
 
 Once the server is started you will get the following message
